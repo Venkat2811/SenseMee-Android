@@ -1,0 +1,109 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+  >
+    
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+   
+
+    
+        
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+
+    
+    <TextView
+        android:id="@+id/enterno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="#663300"
+        android:textStyle="bold"
+        android:text="Enter mobile number :" />
+
+<EditText
+    android:id="@+id/editText1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:text="8870392096"
+    android:inputType="number" >
+
+    <requestFocus />
+</EditText>
+<TextView
+        android:id="@+id/enterth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#663300"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:text="Enter threshold value :" />
+
+<EditText
+    android:id="@+id/editText2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:text="10"
+    android:inputType="number" >
+
+    <requestFocus />
+</EditText>
+
+
+
+<TextView android:id="@+id/xxx"
+          android:layout_width="fill_parent" 
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal"
+           android:layout_marginTop="10dp"
+        android:textColor="#000000"/>
+
+
+
+<TextView android:id="@+id/t3"
+          android:layout_width="fill_parent" 
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal"
+           android:layout_marginTop="2dp"
+        android:textColor="#000000"/>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="5dp"
+     android:layout_marginTop="10dp"
+    android:gravity="center">
+    
+    
+    <ImageButton
+        android:id="@+id/on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:src="@drawable/on"
+      android:background="@null"
+       />
+     <ImageButton
+        android:id="@+id/off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+      android:src="@drawable/off"
+      android:background="@null"
+      />
+</RelativeLayout>
+
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
